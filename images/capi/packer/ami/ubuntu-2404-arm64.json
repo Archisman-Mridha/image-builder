@@ -14,7 +14,7 @@
 	"ssh_username": "ubuntu",
 	"ssh_keypair_name": "kubeaid-demo",
 	"ssh_private_key_file": "../../../guides/aws/kubeaid-demo.pem",
-	"kubernetes_semver": "v1.31.0",
+	"kubernetes_semver": "v1.29.0",
 	"goss_arch": "arm",
 	"ami_regions": "us-east-2",
 	"ami_groups": ""
