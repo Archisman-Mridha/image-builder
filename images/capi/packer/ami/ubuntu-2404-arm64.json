@@ -4,8 +4,8 @@
 	"distribution_release": "noble",
 	"distribution_version": "24.04",
 	"aws_region": "us-east-2",
-	"vpc_id": "vpc-094418c02cde70a71",
-	"subnet_id": "subnet-05953b6d11ff552da",
+	"vpc_id": "vpc-0767bd7a296216186",
+	"subnet_id": "subnet-0193deecb3d626830",
 	"source_ami": "",
 	"builder_instance_type": "t4g.small",
 	"ami_filter_name": "ubuntu/images/*ubuntu-noble-24.04-arm64-server-*",
@@ -14,8 +14,9 @@
 	"ssh_username": "ubuntu",
 	"ssh_keypair_name": "kubeaid-demo",
 	"ssh_private_key_file": "../../../guides/aws/kubeaid-demo.pem",
-	"kubernetes_semver": "v1.29.0",
+	"kubernetes_semver": "v1.31.0",
 	"goss_arch": "arm",
 	"ami_regions": "us-east-2",
-	"ami_groups": ""
+	"ami_groups": "",
+	"ansible_extra_vars": "pinned_debs=\"cloud-init=24.1.3-0ubuntu3\""
 }
